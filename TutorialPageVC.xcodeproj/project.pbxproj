@@ -12,6 +12,9 @@
 		FA20799D1E7F25190013BDB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA20799B1E7F25190013BDB6 /* Main.storyboard */; };
 		FA20799F1E7F25190013BDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA20799E1E7F25190013BDB6 /* Assets.xcassets */; };
 		FA2079A21E7F25190013BDB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2079A01E7F25190013BDB6 /* LaunchScreen.storyboard */; };
+		FA2079AA1E7F37570013BDB6 /* TutorialContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2079A91E7F37570013BDB6 /* TutorialContentViewController.swift */; };
+		FA2079AC1E7F3FAE0013BDB6 /* TutorialStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2079AB1E7F3FAE0013BDB6 /* TutorialStep.swift */; };
+		FA2079AE1E7F4FBE0013BDB6 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2079AD1E7F4FBE0013BDB6 /* TutorialPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FA20799E1E7F25190013BDB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2079A11E7F25190013BDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA2079A31E7F25190013BDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2079A91E7F37570013BDB6 /* TutorialContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialContentViewController.swift; sourceTree = "<group>"; };
+		FA2079AB1E7F3FAE0013BDB6 /* TutorialStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialStep.swift; sourceTree = "<group>"; };
+		FA2079AD1E7F4FBE0013BDB6 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				FA2079971E7F25190013BDB6 /* AppDelegate.swift */,
 				FA2079991E7F25190013BDB6 /* ViewController.swift */,
 				FA20799B1E7F25190013BDB6 /* Main.storyboard */,
+				FA2079AD1E7F4FBE0013BDB6 /* TutorialPageViewController.swift */,
+				FA2079A91E7F37570013BDB6 /* TutorialContentViewController.swift */,
 				FA20799E1E7F25190013BDB6 /* Assets.xcassets */,
 				FA2079A01E7F25190013BDB6 /* LaunchScreen.storyboard */,
 				FA2079A31E7F25190013BDB6 /* Info.plist */,
+				FA2079AB1E7F3FAE0013BDB6 /* TutorialStep.swift */,
 			);
 			path = TutorialPageVC;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA20799A1E7F25190013BDB6 /* ViewController.swift in Sources */,
+				FA2079AE1E7F4FBE0013BDB6 /* TutorialPageViewController.swift in Sources */,
+				FA2079AC1E7F3FAE0013BDB6 /* TutorialStep.swift in Sources */,
 				FA2079981E7F25190013BDB6 /* AppDelegate.swift in Sources */,
+				FA2079AA1E7F37570013BDB6 /* TutorialContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
